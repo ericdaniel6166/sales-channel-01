@@ -29,6 +29,11 @@
     <properties>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.eric6166</groupId>
+            <artifactId>base-service-01</artifactId>
+            <version>1.0-RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>
