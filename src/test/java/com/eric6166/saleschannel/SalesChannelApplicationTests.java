@@ -8,6 +8,7 @@ class SalesChannelApplicationTests {
 
     @Test
     void contextLoads() {
+        // default implementation ignored
     }
 
 }

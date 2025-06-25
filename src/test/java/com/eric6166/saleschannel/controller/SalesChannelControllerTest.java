@@ -18,10 +18,12 @@ class SalesChannelControllerTest {
 
     @BeforeEach
     void setUp() {
+        // default implementation ignored
     }
 
     @AfterEach
     void tearDown() {
+        // default implementation ignored
     }
 
     @Test
