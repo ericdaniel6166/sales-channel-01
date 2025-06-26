@@ -8,10 +8,10 @@
         <version>1.0-RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>sales-channel-01</artifactId>
+    <artifactId>sales-channel-service-01</artifactId>
     <version>1.0-RELEASE</version>
-    <name>sales-channel-01</name>
-    <description>sales-channel-01</description>
+    <name>sales-channel-service-01</name>
+    <description>sales-channel-service-01</description>
 
     <url/>
     <licenses>
