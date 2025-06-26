@@ -29,6 +29,6 @@ class SalesChannelControllerTest {
     void ping() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("/ping"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.content().string("pong"));
+                .andExpect(MockMvcResultMatchers.content().string("pong sales-channel-service-01"));
     }
 }
