@@ -12,7 +12,6 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 @WebMvcTest(SalesChannelController.class)
 class SalesChannelControllerTest {
 
-    private static final String PATH = "/sales-channel";
     @Autowired
     private MockMvc mockMvc;
 
@@ -28,7 +27,7 @@ class SalesChannelControllerTest {
 
     @Test
     void ping() throws Exception {
-        mockMvc.perform(MockMvcRequestBuilders.get(PATH + "/ping"))
+        mockMvc.perform(MockMvcRequestBuilders.get("/ping"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(MockMvcResultMatchers.content().string("pong"));
     }
