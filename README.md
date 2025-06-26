@@ -1,1 +1,1 @@
-# sales-channel-01
+# sales-channel-service-01
